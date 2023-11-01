@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #C3FFFB;
+            color: black;
+            padding: 10px;
+        }
+
+        .navbar img {
+            width: 60px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .navbar .text {
+            font-weight: bold;
+        }
+
+        .navbar .line {
+            border-left: 3px solid black;
+            height: 47px;
+            width: 47px;
+            margin: 0 21px;
+        }
+
+        .navbar .links {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #C3FFFB;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 20px;
+            border-radius: 10px;
+            border-color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            margin: 0;
+        }
+
+        .contact-info h4 {
+            margin: 0;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid black;
+            margin: 15px 0;
+            padding: 10px;
+        }
+
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        select {
+            width: 108%;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            display: block;
+            width: 108%;
+            padding: 20px;
+            background-color: #C3FFFB;
+            color: black;
+            border: none;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #C3FFFB;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="https://shorturl.at/emvI4" alt="Logo">
+        <span class="text" style="text-align: center;">Climate <br> Emergency</span>
+        <div class="line"></div>
+        <div class="links">
+            <a href="HP.html">Climate</a>
+            <a href="EffectsPage.html">Effects</a>
+            <a href="SolutionsPage.html">Solutions</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </div>
+    </div>
+    <h1>Contact Us</h1>
+    <div class="container">
+        <div class="contact-info">
+            <h3>We welcome your inquiries and engagement with our mission to address the urgent climate crisis. If you
+                have
+                questions, feedback, or ideas to share, please don't hesitate to reach out. Our dedicated team is here
+                to
+                listen, collaborate, and work together towards a sustainable and resilient future. Feel free to contact
+                us
+                through the provided channels, and let's make a positive impact on our planet. Together, we can make a
+                difference.</h3>
+        </div>
+        <hr>
+        <div class="contact-info">
+            <h3>Phone Number:</h3>
+            <h4>09-389-411</h4>
+        </div>
+        <hr>
+        <div class="contact-info">
+        <h3>Email Address:</h3>
+        <h4>help@climate.emergency.co.nz</h4>
+        </div>
+        <hr>
+        <div class="contact-info">
+        <h3>Mailing Address:</h3>
+        <h4>102 Victoria Avenue <br> Auckland City <br> New Zealand</h4>
+        </div>
+        <hr>
+
+        <form id="myForm">
+            <h4 style="text-align: center;">Get in touch by filling up the form below:</h4>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="type">Please Select Inquiry Type:</label>
+            <input type="text" id="type" name="type" required>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="null">- None -</option>
+                <option value="GI">General Inquiry</option>
+                <option value="Donation">Donation & Related Inquiries</option>
+                <option value="Education">Education Inquiries</option>
+                <option value="Others">Other</option>
+            </select>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <button type="button" id="submitBtn">Submit</button>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <p>Footer</p>
+</footer>
+
+</html>
