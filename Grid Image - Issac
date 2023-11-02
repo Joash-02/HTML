@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Layout Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Background color for the entire page */
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .grid-cell {
+            background-color: #ffffff;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .grid-cell img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        Navbar
+    </div>
+    <div class="title">
+        <h1>Page Title</h1>
+    </div>
+    <div class="grid">
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\landpollution.jpg" alt="Image 1"></div>
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\flooding2.jpg" alt="Image 2"></div>
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\Flooding.jpg" alt="Image 3"></div>
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\Smoke pollution.jpg" alt="Image 4"></div>
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\smoke pollution2.jpg" alt="Image 5"></div>
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\waterpollution2.png" alt="Image 6"></div>
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\landpollution1.jpg" alt="Image 7"></div>
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\drought-7135470_640.jpg" alt="Image 8"></div>
+        <div class="grid-cell"><img src="C:\Users\joash\OneDrive\Documents\Unuseful\Issac\Images\forest-fire-3836834_640.jpg" alt="Image 9"></div>
+    </div>
+</body>
+</html>
