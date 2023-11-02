@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: grey;
+        }
+
+        .header img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        .header h1 {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .main-content {
+            display: flex;
+        }
+
+        .Paragraph1{
+            background-color: azure;
+        }
+
+        .Paragraph2{
+            background-color: azure;
+        }
+
+        .main-column {
+            width: 75%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-column p {
+            margin: 0;
+            padding: 10px;
+        }
+
+        .side-column {
+            width: 25%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .side-column img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: grey;
+        }
+
+        .footer h2 {
+            margin: 0;
+        }
+
+        .footer a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="your-image.jpg">
+        <h1>Climate Change</h1>
+    </div>
+
+    <br>
+
+    <div class="main-content">
+        <div class="main-column">
+            <div>
+                <div class="Paragraph1">
+                    <h3>What Are The Effects:</h3>
+                    <p>First Paragraph</p>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="Paragraph2">
+                    <p>First Paragraph</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-column">
+            <img src="image1.jpg">
+            <img src="image2.jpg">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="footer">
+        <h2>Pages</h2>
+        <a href="#">Link 1</a> | <a href="#">Link 2</a> | <a href="#">Link 2</a>
+    </div>
+</body>
+
+</html>
